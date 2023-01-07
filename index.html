@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ubicaciones</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""/>
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.21.0/slimselect.css'>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+   
+      <select id="select-ubucaciones">
+        <option value="" selected="selected">Seleccione una ubicación</option>
+        <optgroup label="Ovejas">
+          <option>Filiberto Mendoza</option>
+          <option>Julio Salas Vitola</option>
+          <option>Jaime Sequeda</option>
+        </optgroup>
+        <optgroup label="Bolivar">
+          <option>Idalia creida</option>
+          <option>Creida iDALIA</option>
+          <option>Jaime</option>
+        </optgroup>
+        <optgroup label="Sucre">
+          <option>Todo listo</option>
+          <option>Salas Vitola</option>
+          <option>Sequeda</option>
+        </optgroup>
+    </select>
+ 
+    <div id="map"></div>
+  </head>
+  <body>
+   
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+      integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+      crossorigin=""></script> 
+   
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.21.0/slimselect.js'></script>
+    <script src="js/index.js"></script>  
+  </body>
+</html>
